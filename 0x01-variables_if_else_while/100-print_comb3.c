@@ -1,12 +1,7 @@
-/**
-*Author: Collins Ogera
-*Date: 3/20/2023
-*/
-
 #include <stdio.h>
 
 /**
-*main - Starting point
+*main - Starting point of program
 *
 *Return: 0 as default value
 */
