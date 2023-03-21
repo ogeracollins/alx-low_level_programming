@@ -1,5 +1,13 @@
 #include "main.h"
 
+/**
+*print_to_98 - Check aticas.
+*@n: Starting number
+*
+*Return: Nothing.
+*/
+
+
 void print_to_98(int n)
 {
 	int a;
