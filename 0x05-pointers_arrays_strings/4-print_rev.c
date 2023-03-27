@@ -2,6 +2,7 @@
 *Author: Collins Ogera
 *Date: 3/27/2023
 */
+#include "main.h"
 
 /**
 *print_rev - Print string in reverse
