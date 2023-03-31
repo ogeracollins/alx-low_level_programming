@@ -125,6 +125,24 @@ __Mazda Demio Sample Images__
      style="display: block; margin-right: auto; margin-left: auto; width: 90%;
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" />
 
+---
+
+<!--White Demio-->
+<img src="http://drive.google.com/uc?export=view&id=1NjYzJuPtbwiju3OnvyPyqj-GYu-RvBuG"
+     alt="sample image"
+     style="display: block; margin-right: auto; margin-left: auto; width: 90%;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" />
+     
+<img src="http://drive.google.com/uc?export=view&id=1C2Sa0DhcH0btPm77FGTjyoT9w0WncgKM"
+     alt="sample image"
+     style="display: block; margin-right: auto; margin-left: auto; width: 90%;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" />
+     
+<img src="http://drive.google.com/uc?export=view&id=1XvKFc7DpM0k7JIIIO4xyHcj_3s3Ms5jv"
+     alt="sample image"
+     style="display: block; margin-right: auto; margin-left: auto; width: 90%;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" />
+
 ### Other units Available
 + Mazda Demio 2015
     + Fuel Type: Petrol, Diesel
