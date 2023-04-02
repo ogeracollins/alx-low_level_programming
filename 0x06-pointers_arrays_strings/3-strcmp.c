@@ -28,11 +28,11 @@ int _strcmp(char *s1, char *s2)
 			if (*(s1 + i) == *(s2 + i))
 				return (0);
 			else
-				return (-1);
+				return (-15);
 		}
 	}
 	else if (s1Length > s2Length)
-		return (1);
+		return (15);
 	else
-		return (-1);
+		return (-15);
 }
