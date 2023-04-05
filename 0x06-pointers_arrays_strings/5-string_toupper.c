@@ -7,12 +7,12 @@
 
 /**
 *string_toupper - Convert lowercase to upper
-*@s: Pointer to string
+*@a: Pointer to string
 *
 *Return: pointer to converted string
 */
 
-char *string_toupper(char *s)
+char *string_toupper(char *a)
 {
 	int i;
 
