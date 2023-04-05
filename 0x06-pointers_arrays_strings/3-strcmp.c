@@ -16,23 +16,27 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int s1Length, s2Length, i;
+	int i, fir_len, sec_len;
 
-	s1Length = strlen(s1);
-	s2Length = strlen(s2);
+	fir_len = strlen(s1);
+	sec_len = strlen(s2);
 
-	if (s1Length == s2Length)
+	if (fir_len != sec_len)
 	{
-		for (i = 0; i < s1Length; i++)
-		{
-			if (*(s1 + i) == *(s2 + i))
-				return (0);
-			else
-				return (-15);
-		}
+		if (fir_len > sec_len)
+			return (1);
+		else
+			return (-1);
 	}
-	else if (s1Length > s2Length)
-		return (15);
 	else
-		return (-15);
+	{
+		for (i = 0; i < fir_len; i++)
+		{
+			if (*(s1) > *(s2))
+				return (1);
+			else if (*(s1) < *(s2))
+				return (-1);
+		}
+		return (0);
+	}
 }
