@@ -1,7 +1,11 @@
-#include "main.h"
+/*
+*Author: Collins Ogera
+*Date: 4/5/2023
+*/
 
+#include "main.h"
 /**
-*cap_string: Capitalize a string
+*cap_string - Capitalize a string
 *@s: Pointer to string
 *
 *Return: Pointer to capitalized string
@@ -12,7 +16,11 @@ char *cap_string(char *s)
 
 	for (i = 0; *(s + i) != '\0'; i++)
 	{
-		if ()
+		if (s[i] == ',' || s[i] == '\t' || s[i] == '\n'
+			|| s[i] == ';' || s[i] == ' ' || s[i] == '.'
+			|| s[i] == '!' || s[i] == '?' || s[i] == '"'
+			|| s[i] == '(' || s[i] == ')' || s[i] == '{'
+			|| s[i] == '}')
 		{
 			if (s[i + i] >= 'a' && s[i + 1] <= 'z')
 				s[i + 1] = s[i + 1] - 32;
