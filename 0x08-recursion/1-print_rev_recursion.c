@@ -3,6 +3,7 @@
 *Date: 4/9/2023
 */
 #include "main.h"
+#include "_putchar.c"
 
 /**
 *_print_rev_recursion - Preint string in reverse
