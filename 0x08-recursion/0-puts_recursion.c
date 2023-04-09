@@ -3,7 +3,6 @@
 *Date: 4/9/2023
 */
 #include "main.h"
-#include "_putchar.c"
 
 /**
 *_puts_recursion - Print string to stdout
