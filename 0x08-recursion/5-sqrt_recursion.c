@@ -24,7 +24,7 @@ int squareRoot(int initial, int end, int m)
 		if (middle * middle > m)
 			return (squareRoot(initial, middle - 1, m));
 		if (middle * middle < m)
-			return (squareRoot(middle + 1, emd, m));
+			return (squareRoot(middle + 1, end, m));
 	}
 }
 
