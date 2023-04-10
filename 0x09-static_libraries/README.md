@@ -25,6 +25,6 @@ Displays info about symbols in a specified file.
 * main.h
 * putchar.c
 
-> ##Mandatory tasks
+> ## Mandatory tasks
 + libmy.a
 + create_static_lib.sh
