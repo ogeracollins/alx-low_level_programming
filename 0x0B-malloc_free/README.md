@@ -2,14 +2,13 @@
 
 ### Automatic Allocation
 When declaring variables or usning strings within " ",
-the program takes care of memory allocation.
-    	
-     ```
+the program takes care of memory allocation.   	
+```
      int n;
      char c;
      int *ptr;
      char array[3];
-     ```
+```
 
 ### Dynamic allocation
 Allocating memory to store data without initially knowing the
