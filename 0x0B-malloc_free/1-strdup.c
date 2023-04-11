@@ -22,7 +22,7 @@ i
 	dest = malloc(sizeof(str) * len);
 
 	if (dest == NULL)
-		return (1);
+		return (NULL);
 	for (i = 0; i < len; i++)
 		dest[i] = str[i];
 	dest[i] = '\0';
