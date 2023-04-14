@@ -20,6 +20,6 @@ void *malloc_checked(unsigned int b)
 	ass = malloc(sizeof(int) * b);
 
 	if (ass == NULL)
-		return (NULL);
+		exit (98);
 	return (ass);
 }
