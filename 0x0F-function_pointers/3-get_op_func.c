@@ -2,6 +2,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ *get_op_func - Get operator
+ *@s: Operator
+ *@a: number one
+ *@b: Number two
+ *
+ *Return: Pointer to function of corespondig operator
+ */
+
 int (*get_op_func(char *s)(int a, int b))
 {
 	op_t ops[] = {
@@ -12,7 +21,5 @@ int (*get_op_func(char *s)(int a, int b))
 		{"%", op_mod},
 		{NULL, NULL}
 	};
-	int i;
-
-	
+	int i;	
 }
