@@ -1,5 +1,5 @@
 #include "3-calc.h"
-#include "3-function_pointers.h"
+#include "function_pointers.h"
 #include <stdio.h>
 #include <stdlib.h>
 
