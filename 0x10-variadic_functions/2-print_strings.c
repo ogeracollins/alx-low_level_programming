@@ -2,9 +2,9 @@
 *Author: Collins Ogera
 *Date: 4/20/2023
 */
+#include "variadic_functions.h"
 #include <stdio.h>
 #include <stdarg.h>
-#include "variadic_functions.h"
 
 /**
  *print_strings - Print a string using pointers
