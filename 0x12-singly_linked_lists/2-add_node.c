@@ -17,26 +17,26 @@ list_t *add_node(list_t **head, const char *str)
 {
 	int len;
 	char *newStr;
-	list_t *new_node;
+	list_t *newNode;
 
-	if (str == NULL || *head == NULL)
+	if (str == NULL || head == NULL)
 		return (NULL);
 	len = strlen(str);
 
-	newStr = malloc((len + 1) * sizeof(char));
+	newNode = *head;
+
+	newStr = malloc(len * sizeof(char));
 	if (newStr == NULL)
 		return (NULL);
 	newStr = strdup(str);
 
-	new_node = *head;
-	new_node = malloc(sizeof(list_t));
-	if (new_node == NULL)
+	newNode = malloc(sizeof(list_t));
+	if (newNode == NULL)
 		return (NULL);
-	new_node->str = newStr;
-	new_node->len = len;
-	new_node->next = *head;
+	newNode->str = newStr;
+	newNode->len = len;
+	newNode->next = *head;
 
-	*head = new_node;
-
-	return (new_node);
+	*head = newNode;
+	return (newNode);
 }
