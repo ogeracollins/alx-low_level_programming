@@ -1,5 +1,4 @@
 #include "main.h"
-#include <math.h>
 
 /**
  *Power - Rase a base to power
@@ -11,7 +10,8 @@
 int Power(int a, int b)
 {
 	int power = 1, i;
-	for(i = 1; i <= b; ++i)
+
+	for (i = 1; i <= b; ++i)
 		power = power * a;
 	return (power);
 }
